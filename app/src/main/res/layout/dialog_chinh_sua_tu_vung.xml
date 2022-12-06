@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:gravity="end"
+                android:textColor="@color/text"
+                android:text="Từ tiếng anh : " />
+
+            <EditText
+                android:id="@+id/txtTuVung"
+                android:textColor="@color/text"
+                android:layout_width="206dp"
+                android:inputType="text"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+            <TextView
+                android:gravity="end"
+                android:textColor="@color/text"
+                android:text="Nghĩa : " />
+
+            <EditText
+                android:id="@+id/txtNghia"
+                android:textColor="@color/text"
+                android:inputType="text" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:gravity="end"
+                android:textColor="@color/text"
+                android:text="Phát âm :" />
+
+            <EditText
+                android:id="@+id/txtPhatAm"
+                android:textColor="@color/text"
+                android:inputType="text" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:gravity="end"
+                android:textColor="@color/text"
+                android:text="Loại Từ : " />
+
+            <Spinner
+                android:id="@+id/spLoaiTu"
+                android:textColor="@color/text"
+                android:hint="Input email"
+                android:inputType="text" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

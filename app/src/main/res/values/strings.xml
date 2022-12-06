@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Từ Vựng Tiếng Anh</string>
+    <string-array name="arrLoaiTu">
+        <item>noun</item>
+        <item>adjective</item>
+        <item>adverb</item>
+        <item>verb</item>
+        <item>pronoun</item>
+        <item>preposition</item>
+    </string-array>
+    <string name="bo_tu">
+        <div>
+            <b><big style="25dp">Bộ Bài Học\n</big></b>
+            <small>Xem các bộ bài học</small>
+        </div>
+    </string>
+    <string name="tu_dien">
+        <div>
+            <b><big style="25dp">Từ Điển\n</big></b>
+            <small>Tra cứu bất kỳ từ nào và kiểm tra phát âm của bạn</small>
+        </div>
+    </string>
+    <string name="tra_cuu">
+        <div>
+            <b><big style="25dp">Tra Cứu\n</big></b>
+            <small>Tra cứu bất kỳ từ nào</small>
+        </div>
+    </string>
+    <string name="phat_am">
+        <div>
+            <b><big style="25dp">Phát Âm\n</big></b>
+            <small>Kiểm tra phát âm của bạn</small>
+        </div>
+    </string>
+</resources>

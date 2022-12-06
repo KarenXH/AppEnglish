@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--Search menu-->
+    <item android:id="@+id/mnuTimKiemTuVung" android:title="Tìm Kiếm"
+        android:icon="@android:drawable/ic_search_category_default"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"/>
+
+    <!--Option menu-->
+    <item android:id="@+id/mnuThemTu" android:title="Thêm Từ Mới"/>
+    <item android:id="@+id/mnuLuyenTap" android:title="Luyện Tập" />
+    <item android:id="@+id/mnuSlide" android:title="Xem Dạng Slide" />
+</menu>

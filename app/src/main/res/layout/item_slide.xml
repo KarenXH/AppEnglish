@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/slideLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtTuVung"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:layout_gravity=""
+        android:layout_marginTop="23dp"
+        android:gravity="center"
+        android:text="Từ Vựng"
+        android:textColor="@color/text"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <TextView
+        android:id="@+id/txtLoaiTu"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_gravity="top"
+
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/text"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/txtPhatAm"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/text"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txtNghia"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/text"
+        android:textSize="18sp" />
+</LinearLayout>

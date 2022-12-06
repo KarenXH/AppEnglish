@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginBottom="13dp"
+            android:background="@color/background"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txtWord"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="EN"
+                    android:textColor="@color/text"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txtPhienAm"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="/asd/"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+
+                <ImageButton
+                    android:id="@+id/btnAudio"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/icons_voice_36" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp">
+
+                <TextView
+                    android:id="@+id/txtMeaning"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="txtMeaning"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/lblDinhNghia"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:textStyle="bold"
+                    android:text="Đinh Nghĩa:"
+                    android:textColor="@color/text"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/txtDinhNghia"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="txtDinhNghia"
+                    android:scrollbars = "vertical"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/lblExample"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="Ví dụ:"
+                    android:textStyle="bold"
+                    android:textColor="@color/text"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/txtExample"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="txtExampled"
+                    android:scrollbars = "vertical"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:paddingTop="25dp">
+
+                <Button
+                    android:id="@+id/btnLuyenAm"
+                    android:layout_width="300dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/brodetr"
+                    android:drawableLeft="@drawable/icons_microphone_48"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:hint="@string/phat_am"
+                    android:inputType="text"
+                    android:letterSpacing="0.01"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    android:textColorHint="@color/text"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00c7ff</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#7900abe4</color>
+    <color name="colorSlide">#9860d8ff</color>
+    <color name="btnKiemTra">#32CD32</color>
+    <color name="background">#C1FFFFFF</color>
+    <color name="text">#F35B7E</color>
+    <color name="black">#000000</color>
+    <color name="backgroundHome">#FFFFFF</color>
+</resources>

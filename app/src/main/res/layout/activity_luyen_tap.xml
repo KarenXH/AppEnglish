@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LuyenTap">
+
+    <include layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:background="@color/background"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/swNgauNhien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ngẫu nhiên"
+            android:textColor="@color/text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtInform"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txtTuVung"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:gravity="center"
+            android:text="Tu vung"
+            android:textColor="@color/text"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPhatAmL"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_gravity="top"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/text"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Gợi ý"
+            android:textColor="@color/text"
+            android:textSize="18dp"
+            android:textStyle="italic" />
+
+        <GridView
+            android:id="@+id/gvGoiY"
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
+            android:numColumns="7"
+            android:textColor="@color/text"></GridView>
+
+        <EditText
+            android:id="@+id/txtNghia"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Nhập từ"
+            android:inputType="textPersonName"
+            android:textColor="@color/text"
+            android:textSize="22dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="50dp"
+            android:gravity="bottom|center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnBoQua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/holo_red_light"
+                android:text="Bỏ qua"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btnKiemTra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/btnKiemTra"
+                android:text="Kiểm tra"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btnLamLai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/holo_red_light"
+                android:text="Làm Lại"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btnTuTiep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/btnKiemTra"
+                android:text="Tiếp Theo"
+                android:textColor="@android:color/white" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
