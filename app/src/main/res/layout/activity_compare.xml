@@ -8,7 +8,7 @@
     android:background="@color/background"
     android:theme="@style/Theme.AppCompat.NoActionBar"
     android:orientation="vertical"
-    tools:context=".compare">
+    tools:context="education.myprojects.tuvungtienganh.compare">
 
   <include layout="@layout/toolbar" />
 
