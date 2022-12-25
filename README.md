@@ -6,4 +6,3 @@
 ![image](https://user-images.githubusercontent.com/26576398/126871340-d265b931-a3cd-42c8-ab6f-bee3929a2bc2.png)
 ![image](https://user-images.githubusercontent.com/26576398/126871343-e04bd36d-42e8-4a7d-9891-470776c242c6.png)
 
-> PLease see more detail in /report/Báo Cáo Phát Triển Ứng Dụng ...

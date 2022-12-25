@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="education.nhom11.tuvungtienganh" >
+    package="education.HHK.tuvungtienganh" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
@@ -16,10 +16,10 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="education.nhom11.tuvungtienganh.compare"
+            android:name="education.HHK.tuvungtienganh.compare"
             android:exported="true" />
         <activity
-            android:name="education.nhom11.tuvungtienganh.HomeActivity"
+            android:name="education.HHK.tuvungtienganh.HomeActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,16 +27,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="education.nhom11.tuvungtienganh.MainActivity" />
+        <activity android:name="education.HHK.tuvungtienganh.MainActivity" />
 
-        <activity android:name="education.nhom11.tuvungtienganh.danhsachchude" />
-        <activity android:name="education.nhom11.tuvungtienganh.danhsachtu" />
-        <activity android:name="education.nhom11.tuvungtienganh.SlideTuVung" />
-        <activity android:name="education.nhom11.tuvungtienganh.LuyenTap" />
-        <activity android:name="education.nhom11.tuvungtienganh.toanbotu" />
-        <activity android:name="education.nhom11.tuvungtienganh.TuDien" />
+        <activity android:name="education.HHK.tuvungtienganh.danhsachchude" />
+        <activity android:name="education.HHK.tuvungtienganh.danhsachtu" />
+        <activity android:name="education.HHK.tuvungtienganh.SlideTuVung" />
+        <activity android:name="education.HHK.tuvungtienganh.LuyenTap" />
+        <activity android:name="education.HHK.tuvungtienganh.toanbotu" />
+        <activity android:name="education.HHK.tuvungtienganh.TuDien" />
         <activity
-            android:name="education.nhom11.tuvungtienganh.dich"
+            android:name="education.HHK.tuvungtienganh.dich"
             android:exported="true" />
     </application>
 
