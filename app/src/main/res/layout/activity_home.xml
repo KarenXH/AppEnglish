@@ -14,7 +14,7 @@
       android:layout_height="match_parent"
       android:contentDescription="TODO"
       android:scaleType="fitCenter"
-      android:src="@drawable/logo_app"
+      android:src="@drawable/english_logo_app"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="0.0"
