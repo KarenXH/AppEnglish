@@ -104,7 +104,24 @@ public class TuDien extends AppCompatActivity {
     }
 
     private void handleResponse(ArrayList<TuVung> searchTuVung) {
-        linkVoice = searchTuVung.get(0).getPhonetics().get(0).getAudio();
+        if(linkVoice == null)
+        {
+            for (int i = 0; i <= 10; i++) {
+                linkVoice = searchTuVung.get(0).getPhonetics().get(i).getAudio();
+                if(linkVoice.length() > 10)
+                {
+                    if(linkVoice.contains("http") == true)
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        linkVoice = "https"+linkVoice;
+                    }
+                }
+
+            }
+        }
         pronouce = searchTuVung.get(0).getPhonetics().get(0).getText();
         textEN = searchTuVung.get(0).getWord();
         dinhNghia = searchTuVung.get(0).getMeanings().get(0).getDefinitions().get(0).getDefinition();
