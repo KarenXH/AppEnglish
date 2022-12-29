@@ -110,13 +110,14 @@ public class TuDien extends AppCompatActivity {
                 linkVoice = searchTuVung.get(0).getPhonetics().get(i).getAudio();
                 if(linkVoice.length() > 10)
                 {
-                    if(linkVoice.contains("http") == true)
+                    if(linkVoice.contains("https") == true)
                     {
                         break;
                     }
                     else
                     {
                         linkVoice = "https"+linkVoice;
+                        break;
                     }
                 }
 

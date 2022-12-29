@@ -38,7 +38,7 @@ public class dich extends AppCompatActivity {
         btnPlay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                playAudio("https:" + linkVoice);
+                playAudio(linkVoice);
             }
         });
         btnBackMain = findViewById(R.id.btnBackDsChuDe);
